@@ -1,0 +1,204 @@
+.MainFrame {
+  background-image: url("https://theowoo.github.io/agbg/?shape=rectangle&width=400&height=225&borderWidth=3&borderRadius=4&gradientType=twoTones&hue=177&hueOffset=201&brightness=99&duration=5&hideControl=true");
+  border-width: 15px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+.Wallpaper {
+  background-image: url("https://i.ibb.co/c84YjHv/Mountain-sea.gif");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.Heading {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-style: "font-size:10vw";
+  font-size: 190px;
+  background: #121FCF;
+  background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.devops {
+  font-size: 90px;
+  background: #B8E1FC;
+  background: -webkit-radial-gradient(circle farthest-corner at center center, #B8E1FC 19%, #1947FF 50%, #5EC4FF 50%, #2340CF 31%);
+  background: -moz-radial-gradient(circle farthest-corner at center center, #B8E1FC 19%, #1947FF 50%, #5EC4FF 50%, #2340CF 31%);
+  background: radial-gradient(circle farthest-corner at center center, #B8E1FC 19%, #1947FF 50%, #5EC4FF 50%, #2340CF 31%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.demotext {
+  font-size: 70px;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, 2px 2px 2px rgba(206, 89, 55, 0.84), 2px 14px 10px rgba(209, 209, 209, 0.84);
+  color: #FFFFFF;
+  margin-left: 110px;
+  margin-right: 110px;
+  border: 10px groove rgba(22, 29, 164, 0.62);
+  border-radius: 24px 40px 26px 22px;
+}
+
+.horizontal_dotted_line {
+  border-bottom: 2px dotted rgba(22, 29, 164, 0.62);
+  width: 2px;
+}
+
+.profilepic {
+  width: auto;
+  height: auto;
+  margin-top: 500px;
+}
+
+.profilepic:hover {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-animation-duration: 1s;
+  animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%, 43% {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%, 43% {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transition-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+.box {
+  align-items:flex-end;
+  background-image: repeating-linear-gradient(0deg, #c02a2a, #c02a2a 19px, transparent 19px, transparent 29px, #c02a2a 29px), repeating-linear-gradient(90deg, #c02a2a, #c02a2a 19px, transparent 19px, transparent 29px, #c02a2a 29px), repeating-linear-gradient(180deg, #c02a2a, #c02a2a 19px, transparent 19px, transparent 29px, #c02a2a 29px), repeating-linear-gradient(270deg, #c02a2a, #c02a2a 19px, transparent 19px, transparent 29px, #c02a2a 29px);
+  background-size: 2px calc(100% + 29px), calc(100% + 29px) 2px, 2px calc(100% + 29px), calc(100% + 29px) 2px;
+  background-position: 0 0, 0 0, 100% 0, 0 100%;
+  background-repeat: no-repeat;
+  animation: borderAnimation 0.9s infinite linear;
+}
+
+@keyframes borderAnimation {
+  from {
+    background-position: 0 0, -29px 0, 100% -29px, 0 100%;
+  }
+
+  to {
+    background-position: 0 -29px, 0 0, 100% 0, -29px 100%;
+  }
+}
+
+.blueTable {
+  margin-left: 20px auto;
+  margin-right: 20px auto;
+  border-spacing: 150px;
+}
+
+.tablerow3{
+  margin-left: 40px auto;
+}
+
+.What {
+  font-family: 'Dancing Script', cursive;
+  font-size: 200px;
+}
+
+
+
+
+.Designer {
+  font-family: 'Expletus Sans', cursive;
+  font-size: 100px;
+}
+footer {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #cc0000;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:25px;
+	font-weight:bold;
+	padding:8px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
